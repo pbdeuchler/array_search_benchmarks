@@ -1,6 +1,6 @@
 import string, random, time
 
-current_micro_time = lambda x: int(round(x * 1000000))
+current_micro_time = lambda x: round(x * 1000000)
 
 if __name__ == "__main__":
     testList = []
